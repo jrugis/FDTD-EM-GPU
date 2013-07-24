@@ -25,7 +25,7 @@ j.rugis@auckland.ac.nz
 notes:
 1) The overall model space is a cube.
 2) This overall space is divided into eight model blocks.
-3) The eight model blocks are distrubuted, one each, to eight MPI nodes.
+3) The eight model blocks are distributed, one each, to eight MPI nodes.
 3) The program takes advantage of the uniform regular symmetry of the blocks.
 
 */

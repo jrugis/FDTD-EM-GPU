@@ -1,5 +1,5 @@
 ################################################################################
-# 31.05.13 J. Rugis
+# 24.07.13 J. Rugis
 ################################################################################
 
 OS_SIZE = 64
@@ -17,7 +17,7 @@ GCC             ?= g++
 # MPI check and binaries
 MPICXX           = $(shell which mpicxx)
 ifeq ($(MPICXX),)
-      $(error MPI not found, not building simpleMPI.)
+      $(error MPI not found.)
 endif
 
 # Extra user flags
